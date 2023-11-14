@@ -1,0 +1,25 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+#td{
+background-color: grey;
+height: 90vh;
+width: 2fr;
+}
+#header{
+background-image: url(img/web-icon-logo-A6B586D114-seeklogo.com.png);
+background-repeat: no-repeat;
+background-size: 300px;
+background-position: 1308px;
+background-color: grey;
+}
+img{
+width: 300px;
+margin: 75px 504px;
+padding: 5px;
+border: 2px solid black ;
+}
+#img{
+  border: 3px solid black;
+}
