@@ -1,0 +1,36 @@
+:root{
+--cor1:red;
+--cor2:orange;
+--cor3:grey;
+--cor4:yellowgreen;
+}
+
+.box {
+
+    display: grid;
+    grid-template-areas: "top top "
+        "ml main";
+    grid-template-columns: 100px 1200px;
+    grid-template-rows: 100px 700px;
+
+}
+
+.header {
+
+    grid-area: top;
+    background-color: var(--cor1);
+}
+
+.ml {
+
+    grid-area: ml;
+    background-color: var(--cor2);
+}
+
+.main {
+
+    grid-area: main;
+    background-color: var(--cor3);
+
+}
+

@@ -1,0 +1,54 @@
+:root {
+  /* cores*/
+  --cor1: #72e051;
+  --cor2: #51e098;
+  --cor3: #51e067;
+  --cor4: #aee051;
+  --cor5: #36e0c3;
+}
+
+body {
+  background-color: goldenrod;
+  margin: 10px;
+}
+
+.box {
+  display: grid;
+  grid-template-areas:
+    "top top top"
+    "mL conteudo mR"
+    "rodape rodape rodape";
+  grid-template-columns: 148px 1000px 147px;
+  grid-template-rows: 200px 595px 100px;
+  padding: 8px 8px;
+}
+
+.header {
+  background-color: var(--cor5);
+  grid-area: top;
+}
+
+.mL {
+  background-color: var(--cor1);
+  grid-area: mL;
+}
+
+.mL .box1 {
+  background-color: greenyellow;
+}
+
+.main {
+  grid-area: conteudo;
+  background-color: var(--cor2);
+}
+
+.mR {
+  grid-area: mR;
+  background-color: var(--cor3);
+}
+
+.footer {
+  grid-area: rodape;
+  background-color: var(--cor4);
+  color: white;
+}
