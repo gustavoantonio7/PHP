@@ -41,8 +41,8 @@ img {
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     background-color: gainsboro;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: center;
+    align-items: center;*/
 
 }
 

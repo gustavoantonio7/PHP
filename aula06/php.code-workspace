@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../prova-psw"
+		},
+		{
+			"path": "../../projetcs-css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "prova-psw"
+	}
+}
